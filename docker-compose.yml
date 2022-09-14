@@ -1,0 +1,6 @@
+version: '3.5'
+services:
+  web:
+    image: soaresalex/web-nginx:v4
+    ports:
+            - "8080:80"
